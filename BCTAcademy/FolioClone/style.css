@@ -32,3 +32,45 @@ a:hover{
 a{
   text-decoration: none;
 }
+main{
+  display: grid;
+  background-color: white;
+  border-radius: 20px;
+}
+.whit{
+  background-color: white;
+}
+.h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+.last{
+  display: flex;
+  align-items: center;
+}
+.a{
+  border-radius: 0%;
+  color: purple;
+  margin-left: 4px;
+  padding: 0 0 0 0;
+}
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.single-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgb(175, 175, 175);
+}
+.img{
+  width: 100%;
+  border-radius: 25px;
+}
+.title{
+  font-weight: bold;
+  font-size: 24px;
+}
