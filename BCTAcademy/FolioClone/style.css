@@ -57,11 +57,6 @@ main{
   margin-left: 4px;
   padding: 0 0 0 0;
 }
-.projects{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3em;
-}
 .single-project{
   display: flex;
   flex-direction: column;
@@ -80,18 +75,31 @@ main{
   font-weight: bold;
   font-size: 24px;
 }
-@media (min-width: 768px) {
-  .projects {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+/* Styles for screens smaller than 600px (typical smartphones) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules specific to small screens */
+  .projects{
+    display: grid;
+    gap: 3em;
   }
 }
-@media (min-width: 1024px) {
-  .projects {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+/* Styles for screens between 600px and 900px (larger smartphones and small tablets) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* CSS rules specific to medium screens */
+  .projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
   }
 }
-@media (min-width: 640px) {
-  .projects {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+
+/* Styles for screens larger than 900px (tablets and desktops) */
+@media only screen and (min-width: 901px) {
+  /* CSS rules specific to large screens */
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+}
 }
