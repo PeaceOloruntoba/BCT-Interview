@@ -57,13 +57,16 @@ main{
 .projects{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
 }
 .single-project{
   display: flex;
   flex-direction: column;
+  gap: 8px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  padding: 10px 4em;
   box-shadow: 0 4px 4px 0 rgb(175, 175, 175);
 }
 .img{
