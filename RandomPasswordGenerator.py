@@ -8,6 +8,7 @@ print('''Choose character set for password from these :
          2. Letters
          3. Special characters
          4. Exit''')
+
 characterList = ""
 # Getting character set for password
 while(True):
