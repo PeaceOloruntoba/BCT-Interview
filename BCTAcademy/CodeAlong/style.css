@@ -13,3 +13,42 @@ a:active{
 a:visited{
   color: black;
 }
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+thead{
+  background-color: green;
+  color: white;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd){
+  background-color: aquamarine;
+}
+
+tbody tr:hover{
+  background-color: beige;
+}
+
+.container{
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 30px;
+  background-color: azure;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.ancestor{
+  position: relative;
+  padding: 12px;
+  background-color: aqua;
+}
