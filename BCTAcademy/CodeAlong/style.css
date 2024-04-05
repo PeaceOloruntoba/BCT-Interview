@@ -14,6 +14,15 @@ a:visited{
   color: black;
 }
 
+
+body + div{
+  align-items: center;
+}
+
+div + p{
+  align-items: center;
+}
+
 table{
   border-collapse: collapse;
   width: 100%;
