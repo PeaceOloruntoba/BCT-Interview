@@ -115,3 +115,8 @@
 
 const d = new Date()
 console.log(d)
+d.setDate(3)
+console.log(d)
+
+const x = Math.cos(0)
+console.log(x);
