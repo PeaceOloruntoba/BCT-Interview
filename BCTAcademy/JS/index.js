@@ -109,6 +109,9 @@
 // const filter = cars.filter((car) => (car.id == 4))
 // console.log(filter);
 
-cars.map((car) => (
-  console.log(car.id + " " + car.name + " " + car.price)
-))
+// cars.map((car) => (
+//   console.log(car.id + " " + car.name + " " + car.price)
+// ))
+
+const d = new Date()
+console.log(d)
