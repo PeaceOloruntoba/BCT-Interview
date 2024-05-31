@@ -2,12 +2,12 @@ let randomNumber;
 let attempts;
 
 function startGame() {
-  randomNumber = Math.floor(Math.random() * 100) + 1;
+  randomNumber = Math.floor(Math.random() * 30) + 1;
   attempts = 3;
   document.getElementById("guessInput").value = "";
   document.getElementById("feedback").innerText = "";
   document.getElementById("playAgain").style.display = "none";
-  console.log(randomNumber); // For debugging purposes
+  console.log(randomNumber);
 }
 
 function makeGuess() {
