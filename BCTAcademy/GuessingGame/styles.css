@@ -10,6 +10,9 @@ body {
 
 .container {
   text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -17,9 +20,9 @@ body {
 }
 
 input[type="number"] {
-  width: 200px;
+  width: 90%;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }

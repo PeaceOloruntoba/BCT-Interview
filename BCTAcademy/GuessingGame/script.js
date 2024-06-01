@@ -12,9 +12,9 @@ function startGame() {
 
 function makeGuess() {
   const userGuess = parseInt(document.getElementById("guessInput").value);
-  if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+  if (isNaN(userGuess) || userGuess < 1 || userGuess > 30) {
     document.getElementById("feedback").innerText =
-      "Please enter a valid number between 1 and 100.";
+      "Please enter a valid number between 1 and 30.";
     return;
   }
 
